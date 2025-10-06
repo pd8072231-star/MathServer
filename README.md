@@ -32,6 +32,7 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
+```
 bmi.html
 <html>
   <head>
@@ -136,6 +137,7 @@ def calculate_BMI(request):
     context['weight'] = w
     print("BMI=", BMI)
   return render (request,'mathapp/bmi.html',context)
+```
 
 # SERVER SIDE PROCESSING:
 ![alt text](<DharshiniP/mathapp/Screenshot (162).png>)
